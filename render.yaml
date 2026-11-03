@@ -22,7 +22,7 @@ services:
   # ==========================================
   # 2. React (Vite) Frontend Static Site
   # ==========================================
-  - type: static_site
+  - type: static
     name: devportfolio-frontend
     rootDir: frontend
     buildCommand: npm install && npm run build
