@@ -137,6 +137,21 @@ The application will open at: `http://localhost:3000`
 
 ---
 
+## 🚀 1-Click Deployment to Render (`render.yaml`)
+
+This project includes a composed **Render Blueprint** (`render.yaml`) to deploy both the FastAPI backend and React frontend automatically.
+
+### Deploy Steps:
+1. Push your repository to GitHub.
+2. Go to your [Render Dashboard](https://dashboard.render.com/) and click **New +** → **Blueprint**.
+3. Select your repository. Render will automatically parse `render.yaml` and configure:
+   - **`devportfolio-backend`**: FastAPI Python Web Service.
+   - **`devportfolio-frontend`**: React Vite Static Site with SPA rewrites.
+4. Render will prompt you for any secret environment variables (`GITHUB_TOKEN`), keeping your credentials private.
+5. Click **Apply Blueprint** to launch both services.
+
+---
+
 ## 🧪 API Endpoints
 
 | Method | Endpoint | Description |
