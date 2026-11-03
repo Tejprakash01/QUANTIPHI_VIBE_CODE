@@ -3,7 +3,9 @@
 A full-stack developer portfolio and technical analytics application built for the **Quantiphi Vibe Coding Challenge**. It connects to GitHub's REST and GraphQL APIs to visualize developer activity, repository statistics, coding streaks, and features an intelligent **Tech Stack Compatibility (Vibe Check)** engine.
 
 ---
+LIVE - https://devportfolio-frontend-ql7q.onrender.com/
 
+---
 ## 🌟 Highlights & Architecture
 
 - **Backend**: FastAPI (Python 3.10+ / 3.14) with asynchronous architecture, SQLite caching (SQLAlchemy + aiosqlite), and server-side analytical algorithms.
